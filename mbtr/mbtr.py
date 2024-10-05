@@ -322,8 +322,8 @@ def leaf_stats(y, edges, x, order):
     elif order == 2:
         s_left = y_ij
         s_right = (y_ij[-1, :] - y_ij)
-    else:
-        s_left, s_right = None, None
+    # else:
+    #     s_left, s_right = None, None
     return s_left, s_right
 
 
