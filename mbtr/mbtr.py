@@ -473,7 +473,7 @@ class MBT:
         print('#---------------- Model fitted in {:0.2e} min ----------------'.format((time()-t_init)/60))
 
         # keep trees up to best iteration
-        self.trees = self.trees[:best_iter+1]
+        # self.trees = self.trees[:best_iter+1]
         if do_plot:
             plt.close(fig)
 
