@@ -17,8 +17,10 @@ enforced.
 
 ## Installation
 
+To install this forked version:
+
 ```sh
-pip install --upgrade git+https://github.com/supsi-dacd-isaac/mbtr.git
+pip install --upgrade git+https://github.com/jiho/mbtr.git
 ```
 
 ## Usage 
